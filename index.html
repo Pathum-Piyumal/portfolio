@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Pathum Piyumal</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.16"></script>
+<script src="script.js" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#stack">Tech</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="dark-toggle"><i class="ri-moon-line"></i></button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero" data-aos="fade-up">
+    <img src="/assets/profile.png" alt="Profile Picture" class="profile-pic">
+    <h1>Hello, I'm <span>Pathum Piyumal Kumarathunga</span></h1>
+    <h3><span id="typed"></span></h3>
+    <a href="https://drive.google.com/file/d/1rtyGTOA3G3ivC_tXKyILPQ2CuAb6A-oo/view?usp=sharing" class="btn">Download Resume</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p> Hi! I'm an undergraduate student pursuing a BSc (Hons) in Software Engineering with a passion for creating engaging and dynamic web experiences.
+        I have hands-on experience with HTML, CSS, JavaScript, Java, and Python, and I'm currently expanding my skill set by learning React for
+        front-end development and Node.js for back-end development.
+
+        I'm also planning to explore the exciting world of AI and Machine Learning to enhance my projects and stay at the forefront of technology. 
+        I love building solutions that are both functional and visually appealing, and I'm always eager to learn and experiment with new technologies.
+        Let's create something amazing together!</p>
+  </section>
+
+  <!-- Tech Stack -->
+  <section id="stack" class="stack" data-aos="fade-up">
+    <h2>Tech Stack</h2>
+    <div class="stack-icons">
+      <i class="ri-html5-fill html"></i>
+      <i class="ri-css3-fill css"></i>
+      <i class="ri-javascript-fill js"></i>
+      <i class="ri-git-branch-fill git"></i>
+      <i class="ri-java-fill java"></i>
+    </div>
+  </section>
+
+  <!-- Projects & Experience -->
+  <section id="projects" class="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project-grid">
+    
+      <div class="card">
+        <h3>Weather App</h3>
+        <p>A Real-Time Weather Report Web Page.</p>
+        <a href="https://cloudcast-app.netlify.app/" class="btn-small">View</a>
+      </div>
+      <div class="card">
+        <h3>Sefinity</h3>
+        <p>A web platform designed to revolutionize academic learning.</p>
+        <a href="http://infinitysusl.com" class="btn-small">View</a>
+      </div>
+      <div class="card">
+        <h3>TravelBloom</h3>
+        <p>A travel guide web application</p>
+        <a href="https://pathum-piyumal.github.io/travel-helper/" class="btn-small">View</a>
+      </div>
+    </div>
+
+    <div class="experience" data-aos="fade-up">
+      <h2>Experience & Certifications</h2>
+      <div class="timeline">
+        <div class="timeline-card">
+          <h3>SQL for Data Science</h3>
+          <span>Certification</span>
+          <a href="https://olympus.mygreatlearning.com/courses/40120/certificate" class="btn-small">view</a>
+          <p>Completed Great Learning SQL course with practical projects.</p>
+        </div>
+        <div class="timeline-card">
+          <h3>Git & GitHub</h3>
+          <span>Certification</span>
+          <a href="https://coursera.org/share/564f5e8f2f484f3943c3b7b6deb63cc0"class="btn-small">View</a>
+          <p>IBM Coursera course on version control and collaboration.</p>
+        </div>
+        <div class="timeline-card">
+          <h3>Web Design for Beginners </h3>
+          <span>Certification</span>
+          <a href="https://open.uom.lk/lms/mod/customcert/view.php?id=697&downloadown=1"class="btn-small">View</a>
+          <p>Completed the University of Moratuwa's Web Design for Beginners course..</p>
+        </div>
+        <div class="timeline-card">
+          <h3> Cloud Foundations - Advanced</h3>
+          <span>Certification</span>
+          <a href="https://olympus.mygreatlearning.com/courses/31730/certificate?pb_id=581"class="btn-small">View</a>
+          <p>Completed Great Learning Cloud Foundations - Advanced course.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/pathum-piyumal-kumarathunga-48185b32b/?isSelfProfile=true"><i class="ri-linkedin-box-fill"></i></a>
+      <a href="https://github.com/Pathum-Piyumal"><i class="ri-github-fill"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Pathum Piyumal | All Rights Reserved</p>
+  </footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({duration:1000, once:true});
+</script>
+</body>
+</html>
